@@ -9,5 +9,6 @@ describe('Inverting Case', function(){
 	});
 	it('Should invert the case of the string passed in',function(){
 		expect(invertCase('cOMPUTER')).toEqual('Computer');
+		expect(invertCase('Computer')).toEqual('cOMPUTER');
 	});
 }); 
